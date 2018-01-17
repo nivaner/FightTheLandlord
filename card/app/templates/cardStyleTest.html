@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .card {
+            width: 60px;
+            height: 88px;
+            position: relative;
+            float: left;
+            margin-right: 10px;
+            border-radius: 10px;
+            background: #fff;
+            -webkit-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+        }
+
+        .card p {
+            text-align: center;
+            font: 25px/88px Georgia;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        .suitdiamonds:before, .suitdiamonds:after {
+            content: "♦";
+            color: #ff0000;
+        }
+
+        .suithearts:before, .suithearts:after {
+            content: "♥";
+            color: #ff0000;
+        }
+
+        .suitclubs:before, .suitclubs:after {
+            content: "♣";
+            color: #000;
+        }
+
+        .suitspades:before, .suitspades:after {
+            content: "♠";
+            color: #000;
+        }
+
+        .suitbig:before, .suitbig:after {
+            content: "s";
+            color: #000;
+        }
+
+        .suitsmall:before, .suitsmall:after {
+            content: "b";
+            color: #000;
+        }
+
+
+        div[class*='suit']:before {
+            position: absolute;
+            font-size: 15px;
+            left: 5px;
+            top: 5px;
+        }
+
+        div[class*='suit']:after {
+            position: absolute;
+            font-size: 15px;
+            right: 5px;
+            bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="card suitdiamonds">
+    <p>3</p>
+</div>
+<div class="card suitdiamonds">
+    <p>4</p>
+</div>
+<div class="card suitdiamonds">
+    <p>5</p>
+</div>
+<div class="card suitdiamonds">
+    <p>6</p>
+</div>
+<div class="card suitdiamonds">
+    <p>7</p>
+</div>
+<div class="card suitdiamonds">
+    <p>8</p>
+</div>
+<div class="card suitdiamonds">
+    <p>9</p>
+</div>
+<div class="card suitdiamonds">
+    <p>10</p>
+</div>
+<div class="card suitdiamonds">
+    <p>J</p>
+</div>
+<div class="card suitdiamonds">
+    <p>Q</p>
+</div>
+<div class="card suitdiamonds">
+    <p>K</p>
+</div>
+<div class="card suitdiamonds">
+    <p>A</p>
+</div>
+<div class="card suitdiamonds">
+    <p>2</p>
+</div>
+<div class="card suitdiamonds">
+    <p>Q</p>
+</div>
+<div class="card suitsmall">
+    <p>王</p>
+</div>
+<div class="card suitbig">
+    <p>王</p>
+</div>
+<div class="card suitdiamonds">
+    <p>2</p>
+</div>
+<div class="card suitclubs">
+    <p>2</p>
+</div>
+<div class="card suithearts">
+    <p>2</p>
+</div>
+<div class="card suitspades">
+    <p>2</p>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.slim.js"></script>
+</head>
+<body>
+<div class="user">
+    <p>Current user: <b><span id="socketio-user"></span></b></p>
+    <p>
+        <p>Current user: <b><span id="http-user"></span></b></p>
+        <input type=text id='socketio-user-set' placeholder="User to login...">
+        <button class="pure-button pure-button-primary" id="login-socketio">Login</button>
+        <button class="pure-button pure-button-primary" id="logout-socketio">Logout</button>
+    </p>
+</div>
+
+
+<script type="text/javascript">
+
+    window.setInterval(function() {
+                $.ajax({
+                    type: 'GET',
+                    url: '/session',
+                    success: function(data) {
+                        $('#http-session').text(data['session']);
+                        $('#http-user').text(data['user']);
+                    }
+                });
+            }, 1000);
+
+    $('#login-http').click(function () {
+        $.ajax({
+            type: 'POST',
+            url: '/session',
+            data: JSON.stringify({user: $('#http-user-set').val()}),
+            contentType: 'application/json'
+        });
+    });
+    $('#logout-http').click(function () {
+        $.ajax({
+            type: 'POST',
+            url: '/session',
+            data: JSON.stringify({user: null}),
+            contentType: 'application/json'
+        });
+    });
+</script>
+</body>
+</html>

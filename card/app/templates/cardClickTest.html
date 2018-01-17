@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .innerDiv{
+            border:1px solid #cccccc;
+            width:500px;
+            height:50px
+        }
+    </style>
+</head>
+<body>
+
+<div style="width:500px;height:500px;background-color: #1A68A2" id="container">
+    <div class="innerDiv" data-index="1">1</div>
+    <div class="innerDiv" data-index="2">2</div>
+    <div class="innerDiv" data-index="3">3</div>
+    <div class="innerDiv" data-index="4">4</div>
+    <div class="innerDiv" data-index="5">5</div>
+    <div class="innerDiv" data-index="6">6</div>
+    <div class="innerDiv" data-index="7">7</div>
+    <div class="innerDiv" data-index="8">8</div>
+</div>
+<script>
+    function processInnderDiv(domDiv){
+        console.log('div[data-index=%s] click',domDiv.getAttribute("data-index"));
+    }
+
+    document.getElementById("container").addEventListener("click",function(event){
+        processInnderDiv(event.target);
+    },false);
+</script>
+</body>
+</html>

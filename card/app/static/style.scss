@@ -1,0 +1,449 @@
+/*css 顺序*/
+/*
+//.declaration-order {
+//  /* Positioning */
+//  position: absolute;
+//  top: 0;
+//  right: 0;
+//  bottom: 0;
+//  left: 0;
+//  z-index: 100;
+//
+//  /* Box-model */
+//  display: block;
+//  float: right;
+//  width: 100px;
+//  height: 100px;
+//
+//  /* Typography */
+//  font: normal 13px "Helvetica Neue", sans-serif;
+//  line-height: 1.5;
+//  color: #333;
+//  text-align: center;
+//
+//  /* Visual */
+//  background-color: #f5f5f5;
+//  border: 1px solid #e5e5e5;
+//  border-radius: 3px;
+//
+//  /* Misc */
+//  opacity: 1;
+////*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, .home, .room {
+  width: 100%;
+  height: 100%;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  .card {
+    position: relative;
+    width: 3.5em;
+    height: 3.5em * 1.414;
+    //  float: left;
+    //  margin-right: 0.8em;
+    border: 1px solid black;
+    border-radius: 0.2em;
+    background: #ececec;
+    //  -webkit-box-shadow: 0.24em 0.24em 0.56em rgba(0, 0, 0, 0.3);
+    //box-shadow: 0.3em 0.3em 0.56em rgba(0, 0, 0, 0.3);
+    //  p {
+    //    text-align: center;
+    //    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    //  }
+    //
+  }
+  //.diamond:after{
+  //  content: "♦";
+  //  position: absolute;
+  //  top: -1em;
+  //  color: #ff0000;
+  //
+  //}
+}
+
+//.suitdiamonds:before, .suitdiamonds:after {
+//  content: "♦";
+//  color: #ff0000;
+//}
+//
+//.suithearts:before, .suithearts:after {
+//  content: "♥";
+//  color: #ff0000;
+//}
+//
+//.suitclubs:before, .suitclubs:after {
+//  content: "♣";
+//  color: #000;
+//}
+//
+//.suitspades:before, .suitspades:after {
+//  content: "♠";
+//  color: #000;
+//}
+//
+//.suitbig:before, .suitbig:after {
+//  content: "s";
+//  color: #000;
+//}
+//
+//.suitsmall:before, .suitsmall:after {
+//  content: "b";
+//  color: #ff0000;
+//}
+//
+//div[class*='suit']:before {
+//  position: absolute;
+//  font-size: 1.2em;
+//  left: 0.4em;
+//  top: 0.4em;
+//}
+
+.clearfix {
+  display: inline-block;
+  &:after {
+    display: block;
+    content: '.';
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
+
+.home {
+  position: relative;
+
+  .head {
+    padding-top: 3%;
+    text-align: center;
+    h1 {
+      font: 250%/1 Rockwell, serif;
+      color: #485F6E;
+      text {
+        fill: currentColor;
+      }
+      svg {
+        overflow: visible;
+      }
+      use {
+        stroke: black;
+        stroke: 2em;
+        stroke-linejoin: round;
+      }
+    }
+  }
+  .user-info {
+    margin-top: 4%;
+  }
+  .home-context {
+    display: flex;
+    height: 40%;
+    padding-top: 4%;
+    .in-room {
+      //margin: 8% 0 0 12%;
+      //padding: 2em;
+      margin: 0 2%;
+      padding: 2em;
+      display: block;
+      width: 30%;
+      height: 200px;
+
+      text-align: center;
+
+      border: 1px solid black;
+      border-radius: 0.5em;
+
+      h3 {
+        text-align: center;
+      }
+
+      //.form-control {
+      //position: relative;
+      //margin-top: 1.4em;
+      //vertical-align: center;
+      //text-align: center;
+      //label {
+      //  float: left;
+      //  width: 5em;
+      //
+      //  text-align: center;
+      //}
+
+      .form-control {
+        position: relative;
+        margin-top: 1.4em;
+        .i-input {
+          //margin-top: 1em;
+
+          //display: block;
+          width: 70%;
+
+          padding: 0.5em 1em 0.5em 3em;
+
+          line-height: 1.5em;
+
+          border: none;
+          border: 1px solid #ccc;
+          border-radius: 0.5em;
+        }
+        .fa {
+          position: absolute;
+          left: 11.5%;
+          top: 0.4em;
+        }
+      }
+      .submit {
+        margin: 1.5em auto 0;
+        padding: 0.5em 1em;
+
+        display: block;
+        width: 8em;
+
+        color: #fff;
+
+        background-color: #358c2d;
+        border: 1px solid #A5D6D9;
+        border-radius: 0.5em;
+
+        cursor: pointer;
+        &:hover {
+          background-color: #3A7734
+        }
+      }
+
+    }
+    .select-in-room {
+      margin: 0 2%;
+      padding: 2em;
+      display: block;
+      width: 40%;
+      border: 1px solid black;
+      border-radius: 0.5em;
+      overflow: auto;
+      overflow-y: hidden;
+
+      h3 {
+        text-align: center;
+      }
+
+      //.form-control {
+      //  position: relative;
+      //  margin-top: 1.4em;
+      //  .i-input {
+      //    //margin-top: 1em;
+      //
+      //    //display: block;
+      //    width: 40%;
+      //
+      //    padding: 0.5em 1em 0.5em 3em;
+      //
+      //    line-height: 1.5em;
+      //
+      //    border: none;
+      //    border: 1px solid #ccc;
+      //    border-radius: 0.5em;
+      //  }
+      //  .fa {
+      //    position: absolute;
+      //    left: 11.5%;
+      //    top: 0.4em;
+      //  }
+      //}
+      //.submit {
+      //  margin: 1.5em auto 0;
+      //  padding: 0.5em 1em;
+      //
+      //  display: block;
+      //  width: 8em;
+      //
+      //  color: #fff;
+      //
+      //  background-color: #358c2d;
+      //  border: 1px solid #A5D6D9;
+      //  border-radius: 0.5em;
+      //
+      //  cursor: pointer;
+      //  &:hover {
+      //    background-color: #3A7734
+      //  }
+      //}
+
+    }
+    .main-log {
+      margin: 0 2%;
+      padding: 2em;
+      width: 35%;
+      .test {
+        position: relative;
+
+        text-align: center;
+
+        background: #58a; /* 回退样式*/
+        background: linear-gradient(-150deg, transparent 1.5em, #58a 0);
+        border-radius: .5em;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0;
+          background: linear-gradient(to left bottom, transparent 50%, rgba(0, 9, 9, .2) 0, rgba(0, 0, 0, .4)) 100% 0 no-repeat;
+          width: 1.73em;
+          height: 3em;
+          transform: translateY(-1.3em) rotate(-30deg);
+          transform-origin: bottom right;
+          border-bottom-left-radius: inherit;
+          box-shadow: -.2em .2em .3em -.1em rgba(0, 0, 0, .15);
+        }
+
+        .log {
+          height: 200px;
+          overflow: auto;
+          overflow-y: hidden;
+        }
+
+      }
+    }
+  }
+
+}
+
+.room {
+  //margin-top: 15em;
+  //height:screen.height;
+  //height: 50em;
+  .top {
+    display: flex;
+    height: 15%;
+    .final_cards {
+      width: 30%;
+      .card {
+        position: relative;
+        width: 2em;
+        height: 2em * 1.414;
+        //  float: left;
+        //  margin-right: 0.8em;
+        border: 1px solid black;
+        border-radius: 0.2em;
+        background: #ececec;
+      }
+    }
+    .tip {
+      width: 40%;
+    }
+    .log {
+      width: 30%;
+      overflow: auto;
+      overflow-y: hidden;
+    }
+
+    //background-color: #485F6E;
+  }
+  .wrap {
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+    .left_cards {
+      width: 12em;
+      background-color: coral;
+      .user {
+        margin: 0 auto;
+        width: 4em;
+        height: 4em;
+        border-radius: 2em;
+        background-color: #30799B;
+      }
+    }
+    .right_cards {
+      width: 12em;
+      background-color: coral;
+      .user {
+        margin: 0 auto;
+        width: 4em;
+        height: 4em;
+        border-radius: 2em;
+        background-color: #30799B;
+      }
+    }
+    .middle {
+      width: 100%;
+      background-color: #86989B;
+      .last-cards-area {
+        display: flex;
+        height: 50%;
+        .left-last-cards {
+          width: 50%;
+          background-color: #485F6E;
+          .cards {
+            display: flex;
+            justify-content: flex-start; //左对齐
+            flex-wrap: wrap; // 排不下换行
+            padding-left: 2em;
+            .card {
+              position: relative;
+              width: 2.5em;
+              height: 2.5em * 1.414;
+              //  float: left;
+              //  margin-right: 0.8em;
+              border: 1px solid black;
+              border-radius: 0.2em;
+              background: #ececec;
+            }
+          }
+
+        }
+        .right-last-cards {
+          width: 50%;
+          .cards {
+            display: flex;
+            justify-content: flex-end; //右对齐
+            flex-wrap: wrap;
+            padding-right: 2em;
+            .card {
+              position: relative;
+              width: 2.5em;
+              height: 2.5em * 1.414;
+              //  float: left;
+              //  margin-right: 0.8em;
+              border: 1px solid black;
+              border-radius: 0.2em;
+              background: #ececec;
+            }
+          }
+        }
+      }
+      .your-play-area {
+        padding-top: 20%;
+      }
+    }
+  }
+  .your_cards {
+    height: 35%;
+    background-color: #485F6E;
+    .send_prepare {
+      display: block;
+      text-align: center;
+    }
+    .cards_layout {
+      margin-top: 1em;
+      padding-top: 2em;
+      .data-selected {
+        margin-top: -1em;
+      }
+      .card {
+        cursor: pointer;
+      }
+    }
+  }
+
+}
+
+

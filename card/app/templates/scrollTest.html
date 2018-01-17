@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script
+    language = "javascript1.2"
+    type = "text/javascript" >
+        function onGetMessage(context) {
+            msg.innerHTML += context;
+            msg_end.scrollIntoView();
+        }
+</script>
+<div style="width:500px;overflow:auto">
+    <div id="msg" style="overflow:hidden;width:480px; background-color: #3A7734">
+    </div>
+    <div id="msg_end" style="height:0px; overflow:hidden">
+    </div>
+</div>
+</body>
+</html>

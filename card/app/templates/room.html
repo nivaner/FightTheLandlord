@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {#    uc 全屏#}
+    <meta name="full-screen" content="yes">
+    <meta name="browsermode" content="application">
+    {#    qq全屏#}
+    <meta name="x5-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="x5-page-mode" content="app">
+
+
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    {#    <script type="text/javascript" src="//code.jquery.com/jquery-1.4.2.min.js"></script>#}
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <link type="text/css" rel="stylesheet" href="/static/style.css">
+    <link type="text/css" rel="stylesheet" href="/static/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="home">
+    <div class="head">
+        <h1>
+            <svg width="3em" height="1.2em">
+                <use xlink:href="#css"/>
+                <text id="css" y="1em">斗地主</text>
+            </svg>
+        </h1>
+    </div>
+    <div class="user-info">
+        <span>用户名：</span>
+        <span class="username" id="username">{{ nickname }}</span>
+        <br>
+        <span>胜率：</span>
+        <span class="rate">100%</span>
+    </div>
+    {% if judge and judeg != '' %}
+        <div class="home-contex">
+            <form id="backRoom" method="post" action="#">
+                <h3>是否继续游戏？</h3>
+                <span>房间号：</span>
+                <span id="judge_room">{{ judge }}</span>
+                <input class="submit" type="submit" value="继续">
+            </form>
+            <button class="quitRoom" id="quitRoom">取消</button>
+        </div>
+    {% else %}
+        <div class="home-context">
+            <div class="in-room">
+                <form id="join" method="POST" action='#'>
+                    <h3>创建房间</h3>
+                    <div class="form-control">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <input class="i-input" type="text" name="join_room" id="join_room" placeholder="Room Name">
+                    </div>
+                    <div class="form-control">
+                        <i class="fa fa-key" aria-hidden="true"></i>
+                        <input class=" i-input" type="text" name="password" id="room_password"
+                               placeholder="Room Password">
+                    </div>
+                    <input class="submit" type="submit" value="进入">
+                </form>
+            </div>
+            <div class="select-in-room">
+                <div class="select-room" method="POST" action="#">
+                    <h3>选择房间
+                        <button>刷新</button>
+                    </h3>
+                    <div id="rooms">
+                        {% for room in rooms %}
+                            <input type="radio" id={{ room.name }} name="room-selected" value={{ room.name }}>
+                            <label for="room-selected">{{ room.name }}</label>
+                            <label>当前人数：</label><label>{{ room.count }}</label>
+                            <br>
+                        {% endfor %}
+                    </div>
+                    <hr>
+                    <input class=" i-input" type="text" name="password" id="select_room_password"
+                           placeholder="Room Password">
+                    <input type="button" value="加入" id="selectJoinRoom">
+                </div>
+            </div>
+            <div class="main-log">
+                <div class="test">
+                    <div class="header">系统消息</div>
+                    <div id="log" class="log"></div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    <a href="/logout">退出</a>
+</div>
+
+
+{#<div class="room" style="display: none">#}
+<div class="room">
+    <!--
+    <form id="leave" method="POST" action='#'>
+        <input type="text" name="username" placeholder="username" id="username_leave">
+        <input type="text" name="leave_room" id="leave_room" placeholder="Room Name">
+        <input type="submit" value="Leave Room">
+    </form>
+    <form id="send_room" method="POST" action='#'>
+        <input type="text" name="username" placeholder="username" id="username_send">
+        <input type="text" name="room_name" id="room_name" placeholder="Room Name">
+        <input type="text" name="room_data" id="room_data" placeholder="Message">
+        <input type="submit" value="Send to Room">
+    </form>
+    {#    <!-- 准备，给服务端发送准备的消息-->#}
+    <form id="send_prepare" method="POST" action='#'>
+        <input type="text" name="username" placeholder="username" id="username_prepare">
+        <input type="text" name="room" id="room_prepare" placeholder="Room Name">
+        <input type="submit" value="prepare">
+    </form>
+    -->
+    <div class="top">
+        <div class="final_cards">
+            <p>底牌为：</p>
+            {#            <div class="cards">#}
+            {#                <div class="card">#}
+            {#                    <p>3</p>#}
+            {#                </div>#}
+            {#                <div class="card">#}
+            {#                    <p>4</p>#}
+            {#                </div>#}
+            {#                <div class="card">#}
+            {#                    <p>5</p>#}
+            {#                </div>#}
+            {#            </div>#}
+        </div>
+        <div class="tip">
+            <div>tip</div>
+            <div>轮到出牌：</div>
+        </div>
+        <div class="log">
+            {#            <p>消息：</p>#}
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="left_cards">
+            <span id="left-seat"></span>
+            <div class="left-waiting">waiting...</div>
+            <div class="left-info">
+                <div class="left-user">
+                    用户
+                </div>
+                <div class="left-identity">
+                    <sapn>身份：</sapn>
+                    {#                <span>地主</span>#}
+                </div>
+                <div class="cards ">
+                    <div class="card ">
+                    </div>
+                </div>
+                <div class="left-last">
+                    <span>剩：</span>
+                    {#                <span>17</span>#}
+                </div>
+            </div>
+        </div>
+        <div class="middle">
+            {#            <button class="sexyButton" onclick="launchFullscreen(document.documentElement);">启动全屏</button>#}
+            <div class="last-cards-area">
+                <!--                左用户出牌 -->
+                <div class="left-last-cards">
+                    {#                    <div class="cards">#}
+                    {#                        <div class="card">#}
+                    {#                            <p>3</p>#}
+                    {#                        </div>#}
+                    {#                        <div class="card">#}
+                    {#                            <p>4</p>#}
+                    {#                        </div>#}
+                    {#                    </div>#}
+                </div>
+                <!-- 右边用户出牌 -->
+                <div class="right-last-cards">
+                    {#                    <div class="cards">#}
+                    {#                        <div class="card">#}
+                    {#                            <p>3</p>#}
+                    {#                        </div>#}
+                    {#                        <div class="card">#}
+                    {#                            <p>4</p>#}
+                    {#                        </div>#}
+                    {#                        <div class="card">#}
+                    {#                            <p>3</p>#}
+                    {#                        </div>#}
+                    {#                        <div class="card">#}
+                    {#                            <p>4</p>#}
+                    {#                        </div>#}
+                    {#                        <div class="card">#}
+                    {#                            <p>3</p>#}
+                    {#                        </div>#}
+                    {#                        <div class="card">#}
+                    {#                            <p>4</p>#}
+                    {#                        </div>#}
+                    {#                        <div class="card">#}
+                    {#                            <p>3</p>#}
+                    {#                        </div>#}
+                    {#                        <div class="card">#}
+                    {#                            <p>4</p>#}
+                    {#                        </div>#}
+                    {#                        <div class="card">#}
+                    {#                            <p>3</p>#}
+                    {#                        </div>#}
+                    {#                        <div class="card">#}
+                    {#                            <p>4</p>#}
+                    {#                        </div>#}
+                    {#                        <div class="card">#}
+                    {#                            <p>3</p>#}
+                    {#                        </div>#}
+                    {#                        <div class="card">#}
+                    {#                            <p>4</p>#}
+                    {#                        </div>#}
+                </div>
+            </div>
+            <!-- 你出的牌 -->
+            <div class="your-play-area">
+                <div class="tip">
+                    <label>出牌：</label>
+                </div>
+                {#                <div class="cards">#}
+                {#                    <div class="card">#}
+                {#                        <p>3</p>#}
+                {#                    </div>#}
+                {#                    <div class="card">#}
+                {#                        <p>4</p>#}
+                {#                    </div>#}
+                {#                    <div class="card ">#}
+                {#                        <p>5</p>#}
+                {#                    </div>#}
+                {#                    <div class="card diamond">#}
+                {#                        <p>6</p>#}
+                {#                    </div>#}
+                {#                    <div class="card">#}
+                {#                        <p>7</p>#}
+                {#                    </div>#}
+                {#                </div>#}
+                {#        </div>#}
+            </div>
+
+
+        </div>
+        <div class="right_cards">
+            <span id="right-seat"></span>
+            <div class="right-waiting">waiting.....</div>
+            <div class="right-info">
+                <div class="right-user">
+                </div>
+                <div class="right-identity">
+                    <sapn>身份：</sapn>
+                    {#                <span>农民</span>#}
+                </div>
+                <div class="cards">
+                    <div class="card">
+                    </div>
+                </div>
+                <div class="right-last">
+                    <span>剩：</span>
+                    {#                <span>17</span>#}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 你的手牌 -->
+    <div class="your_cards">
+        <span id="seat"></span>
+        <p>你的牌</p>
+        <label class="send_prepare">准备</label>
+        <label class="send_pass">要不起</label>
+        <label class="send_cards">出牌</label>
+        <div class="cards_layout">
+            <div class="cards" id="cards">
+                {#                <div class="card">#}
+                {#                    <p>1</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>2</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>3</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>4</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>5</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>6</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>7</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>8</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>9</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>10</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>11</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>12</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>13</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>14</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>15</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>16</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>17</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>18</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>19</p>#}
+                {#                </div>#}
+                {#                <div class="card">#}
+                {#                    <p>Joker</p>#}
+                {#                    <div style="color: #ff0000; position: absolute; top: 40% ;left: 30%">♥</div>#}
+                {#                </div>#}
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<script type="text/javascript">
+
+    $('.room').hide()
+    $('.left-info').hide()
+    $('.right-info').hide()
+
+    {#    var height = screen.availHeight#}
+    {#    $('.room').css("height", height -)#}
+    {#    console.log(height)#}
+
+    //////////////////////////////////
+    // 全屏按钮
+    /*
+     function launchFullscreen(element) {
+     if (element.requestFullscreen) {
+     element.requestFullscreen();
+     } else if (element.mozRequestFullScreen) {
+     element.mozRequestFullScreen();
+     } else if (element.webkitRequestFullscreen) {
+     element.webkitRequestFullscreen();
+     } else if (element.msRequestFullscreen) {
+     element.msRequestFullscreen();
+     }
+     }
+
+    {#    launchFullScreen(document.documentElement);#}
+
+
+
+     // 判断浏览器种类
+     function exitFullscreen() {
+     if (document.exitFullscreen) {
+     document.exitFullscreen();
+     } else if (document.mozCancelFullScreen) {
+     document.mozCancelFullScreen();
+     } else if (document.webkitExitFullscreen) {
+     document.webkitExitFullscreen();
+     }
+     }
+     //////////////////////////////////
+
+     */
+    // 退出全屏模式!
+    {#    exitFullscreen();#}
+    $(document).ready(function () {
+
+        console.log('testtesttesttesttesttesttesttesttesttesttesttesttesttest')
+        var socket = io.connect(location.protocol + '//' + document.domain + ':' + location.port);
+        console.log("this is socket: " + socket)
+
+        socket.on('connect', function () {
+            socket.emit('my_event', {data: 'I\'m connected!'});
+        });
+
+        // 我的响应消息
+        socket.on('my_response', function (msg) {
+            console.log(msg)
+            console.log(msg.status)
+
+
+            $('.log').append('<br>' + $('<div/>').text('Received #' + ': ' + msg.msg).html());
+            // 动态显示最新消息
+            $(".log").scrollTop(400);
+
+            // 状态码
+            if (msg.status == 'success') {
+                // 查看是否进入房间
+                if (msg.judge == 'join_room_success') {
+                    console.log("join room success")
+
+                    // 显示，隐藏
+                    $('.home').hide()
+                    $('.room').show()
+
+                    $('#seat').text(msg.data);
+                    // 设置位置
+                    yourSeat = $('#seat').text()
+                    if (yourSeat == 1) {
+                        $('#left-seat').text(3)
+                        $('#right-seat').text(2)
+                    } else if (yourSeat == 2) {
+                        $('#left-seat').text(1)
+                        $('#right-seat').text(3)
+                    } else {
+                        $('#left-seat').text(2)
+                        $('#right-seat').text(1)
+                    }
+
+                    {#                    console.log(msg.userInfo)#}
+                    {#                    userInfo = msg.userInfo#}
+                    {#                    for (var i = 0; i < msg.userInfo.length; i++) {#}
+                    {#                        if (userInfo[i].number == yourSeat) {#}
+                    {##}
+                    {#                        }#}
+                    {#                        else if (userInfo[i].number == $('#left-seat').text()) {#}
+                    {#                            $('.left-waiting').hide()#}
+                    {#                            $('.left-info').show()#}
+                    {#                            $('.left-user').text(userInfo[i].name)#}
+                    {#                            // 左用户剩余牌数等#}
+                    {#                        }#}
+                    {#                        else {#}
+                    {#                            $('.right-waiting').hide()#}
+                    {#                            $('.right-info').show()#}
+                    {#                            $('.right-user').text(userInfo[i].name)#}
+                    {#                        }#}
+                    {##}
+                    {#                    }#}
+
+
+                }
+                else {
+                    console.log("join room unsuccess")
+                }
+
+
+            } else {
+                $('.log').append('<br>' + $('<div/>').text('Received #：系统抽风了！！！').html());
+            }
+
+            // 准备
+            if (msg.judge == 'prepare'){
+                $('.send_prepare').hide()
+            }
+
+            //  拿牌
+            if (msg.data == 'waiting for cards') {
+                console.log('get cards')
+                socket.emit('get_cards', {username: $('#username').text()});
+                return false
+            }
+        });
+
+        socket.on('join_response', function (msg) {
+            console.log('join_response')
+
+            $('.log').append('<br>' + $('<div/>').text('Received #' + ': ' + msg.msg).html());
+            // 动态显示最新消息
+            $(".log").scrollTop(400);
+
+            // 状态码
+            if (msg.status == 'success') {
+                // 查看是否进入房间
+                if (msg.judge == 'join_room_success') {
+                    console.log("join room success")
+
+                    console.log(msg.userInfo)
+                    userInfo = msg.userInfo
+                    for (var i = 0; i < msg.userInfo.length; i++) {
+                        if (userInfo[i].number == yourSeat) {
+
+                        }
+                        else if (userInfo[i].number == $('#left-seat').text()) {
+                            $('.left-waiting').hide()
+                            $('.left-info').show()
+                            $('.left-user').text(userInfo[i].name)
+                            // 左用户剩余牌数等
+                        }
+                        else {
+                            $('.right-waiting').hide()
+                            $('.right-info').show()
+                            $('.right-user').text(userInfo[i].name)
+                        }
+
+                    }
+                }
+            }
+        });
+
+        socket.on('card_response', function (msg) {
+            console.log('card_response')
+
+            {#            $('.log').append('<br>' + $('<div/>').text('Received #' + ': ' + msg.code).html());#}
+            {#            $(".log").scrollTop(400);#}
+            if (msg.code == 'success') {
+                console.log(msg.left_cards_num)
+                console.log(msg.card)
+                console.log(msg.card[0])
+                for (i in msg.card) {
+                    // msg.card[i][0] 牌型
+                    // msg.card[i][1] 值
+                    var context = $('<span></span>').text(msg.card[i][1])
+                    console.log(context)
+                    var card = $('<div class="card"/>').addClass(msg.card[i][0]).append(context)
+                    console.log(card)
+                    $('#cards').append(card).html()
+                }
+
+                $('.left_cards').append($('<div/>').text(msg.left_cards_num + " 张")).html();
+                $('.right_cards').append($('<div/>').text(msg.right_cards_num + " 张")).html();
+                $('.final_cards').append($('<div/>').text(msg.final_cards)).html();
+            }
+        });
+
+
+        $('form#join').submit(function (event) {
+            console.log("join button is submit")
+            socket.emit('join', {
+                room: $('#join_room').val(),
+                username: $('#username').text(),
+                password: $('#room_password').val()
+            });
+            return false;
+        });
+        $('form#leave').submit(function (event) {
+            socket.emit('leave', {room: $('#leave_room').val(), username: $('#username_leave').val()});
+            return false;
+        });
+        $('form#send_room').submit(function (event) {
+            console.log(socket)
+            socket.emit('my_room_event', {
+                room: $('#room_name').val(),
+                data: $('#room_data').val(),
+                username: $('#username_send').val()
+            });
+            return false;
+        });
+        {#            $('form#send_prepare_log').submit(function (event) {#}
+        {#                console.log("send_prepare_log")#}
+        {#                socket.emit('user_prepare', {#}
+        {#                    room: $('#room_prepare').val(),#}
+        {#                    username: $('#username_prepare').val(),#}
+        {#                })#}
+        {#            })#}
+        $('.send_prepare').click(function (event) {
+            socket.emit('user_prepare', {
+                username: $('#username').text(),
+            })
+        })
+
+        $('.send_cards').click(function (event) {
+            console.log($('.data-selected p').text())
+            card_data = []
+            for (var i = 0; i < $('.data-selected').length; i++) {
+                card_data.push($('.data-selected')[i].innerText)
+            }
+            console.log(typeof card_data)
+            send_cards_str = card_data.join("-")
+            console.log(typeof send_cards_str)
+            socket.emit('send_cards', {
+                username: $('#username').text(),
+                sendCards: card_data
+            })
+        })
+
+
+        // 退出游戏
+        $('#quitRoom').click(function () {
+            console.log('quitRoom button click')
+            $.ajax({
+                url: '/delRoom',
+                data: {},
+                dataType: 'JSON',
+                type: 'GET',
+                success: function (data) {
+                    $('.log').append('<br>' + $('<div/>').text('Received #' + ': 你已退出房间').html());
+                }
+            })
+            window.location.reload(true)
+            // 好像没用
+            socket.emit('leave', {room: $('#judge_room').text(), username: $('#username').text()});
+            window.location.reload(true)
+        })
+
+        $('#selectJoinRoom').click(function () {
+            {#                    function selectJoinRoom() {#}
+            var radio = document.getElementsByName("room-selected");
+            console.log(radio)
+            var room_name
+            for (i = 0; i < radio.length; i++) {
+                if (radio[i].checked) {
+                    console.log(radio[i].value)
+                    room_name = radio[i].value
+                }
+            }
+            if (room_name == undefined) {
+                alert('请选择要加入的房间')
+            }
+            else {
+                console.log('ok' + $('#select_room_password').val())
+                socket.emit('selectJoin', {
+                    room: room_name,
+                    username: $('#username').text(),
+                    password: $('#select_room_password').val()
+                });
+                return false;
+            }
+        })
+
+        $('form#backRoom').submit(function (event) {
+            console.log("back_room_click")
+            socket.emit('back_room', {
+                room: $('#judge_room').text(),
+                username: $('#username').text(),
+            })
+            return false
+        })
+
+
+    })
+
+    {##}
+    {##}
+    // 取牌
+
+
+    document.getElementById('cards').addEventListener('click', function (event) {
+        var block = event.target
+        if ((block.tagName == 'DIV') & ($(block).hasClass('data-selected') == false) & $(block).hasClass('card')) {
+            $(block).addClass('data-selected')
+        } else {
+            $(block).removeClass('data-selected')
+        }
+    })
+
+    document.getElementsByClassName()
+
+    {#    document.getElementById('rooms').addEventListener('click', function (event) {#}
+    {#        var block = event.target#}
+    {#        if ((block.tagName == 'DIV') & ($(block).hasClass('data-selected') == false) & $(block).hasClass('card')) {#}
+    {#            $(block).addClass('data-selected')#}
+    {#        } else {#}
+    {#            $(block).removeClass('data-selected')#}
+    {#        }#}
+    {#        console.log($('.data-selected p').text())#}
+    {#    })#}
+
+
+</script>
+</body>
+</html>
