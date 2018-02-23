@@ -1,4 +1,4 @@
-#!/Users/yangzhiqiang/Documents/coding/python/card/card_venv/bin/python
+#!/Users/yangzhiqiang/GitHub/FightTheLandlord/card/card_venv/bin/python
 
 import sys
 import getopt

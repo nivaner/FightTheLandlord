@@ -474,6 +474,8 @@ def send_cards(message):
     print sendCards
     # 打印牌型
     print get_card_type(sendCards)
+    emit('my_response', {'msg': 'you can play'})
+
 
 
 # 客户端连接上服务端

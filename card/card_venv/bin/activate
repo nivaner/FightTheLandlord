@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/yangzhiqiang/Documents/coding/python/card/card_venv"
+VIRTUAL_ENV="/Users/yangzhiqiang/GitHub/FightTheLandlord/card/card_venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

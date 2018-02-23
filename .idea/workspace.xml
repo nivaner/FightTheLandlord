@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3519b085-13b8-4ad4-bcbc-40963a52b74d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Babel-2.5.1.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Babel-2.5.1.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Babel-2.5.1.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Babel-2.5.1.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Babel-2.5.1.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Babel-2.5.1.dist-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Babel-2.5.1.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Babel-2.5.1.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_Login-0.4.0.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_Login-0.4.0.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_Login-0.4.0.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_Login-0.4.0.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_Login-0.4.0.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_Login-0.4.0.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_Login-0.4.0.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_Login-0.4.0.dist-info/version_info.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_SQLAlchemy-2.2.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_SQLAlchemy-2.2.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_SQLAlchemy-2.2.dist-info/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_SQLAlchemy-2.2.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_SQLAlchemy-2.2.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_SQLAlchemy-2.2.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_SQLAlchemy-2.2.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_SQLAlchemy-2.2.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_SocketIO-2.9.2.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_SocketIO-2.9.2.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_SocketIO-2.9.2.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_SocketIO-2.9.2.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_SocketIO-2.9.2.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_SocketIO-2.9.2.dist-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_SocketIO-2.9.2.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask_SocketIO-2.9.2.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Jinja2-2.9.6.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Jinja2-2.9.6.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Jinja2-2.9.6.dist-info/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Jinja2-2.9.6.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Jinja2-2.9.6.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Jinja2-2.9.6.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Jinja2-2.9.6.dist-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Jinja2-2.9.6.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Jinja2-2.9.6.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/SQLAlchemy-1.1.14.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/SQLAlchemy-1.1.14.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/SQLAlchemy-1.1.14.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/SQLAlchemy-1.1.14.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/SQLAlchemy-1.1.14.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/SQLAlchemy-1.1.14.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/SQLAlchemy-1.1.14.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Werkzeug-0.12.2.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Werkzeug-0.12.2.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Werkzeug-0.12.2.dist-info/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Werkzeug-0.12.2.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Werkzeug-0.12.2.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Werkzeug-0.12.2.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Werkzeug-0.12.2.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Werkzeug-0.12.2.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/_stringdefs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/python_engineio-1.7.0.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/python_engineio-1.7.0.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/python_engineio-1.7.0.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/python_engineio-1.7.0.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/python_engineio-1.7.0.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/python_engineio-1.7.0.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/python_engineio-1.7.0.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/python_socketio-1.8.0.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/python_socketio-1.8.0.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/python_socketio-1.8.0.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/python_socketio-1.8.0.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/python_socketio-1.8.0.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/python_socketio-1.8.0.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/python_socketio-1.8.0.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz-2017.2.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz-2017.2.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz-2017.2.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz-2017.2.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz-2017.2.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz-2017.2.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz-2017.2.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz-2017.2.dist-info/zip-safe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Canada/East-Saskatchewan" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools-36.5.0.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools-36.5.0.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools-36.5.0.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools-36.5.0.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools-36.5.0.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools-36.5.0.dist-info/dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools-36.5.0.dist-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools-36.5.0.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools-36.5.0.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools-36.5.0.dist-info/zip-safe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/py26compat.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/markupsafe/_speedups.so" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/markupsafe/_speedups.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Africa/Juba" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Africa/Juba" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Africa/Khartoum" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Africa/Khartoum" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Africa/Windhoek" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Africa/Windhoek" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Adak" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Adak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Anchorage" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Anchorage" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Atka" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Atka" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Detroit" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Detroit" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Grand_Turk" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Grand_Turk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Juneau" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Juneau" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Metlakatla" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Metlakatla" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Nome" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Nome" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Sitka" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Sitka" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Yakutat" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/America/Yakutat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Calcutta" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Calcutta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Famagusta" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Famagusta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Kolkata" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Kolkata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Rangoon" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Rangoon" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Yangon" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Yangon" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Yerevan" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Asia/Yerevan" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Eire" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Eire" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Europe/Dublin" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Europe/Dublin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Pacific/Apia" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Pacific/Apia" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Pacific/Fiji" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Pacific/Fiji" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Pacific/Midway" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Pacific/Midway" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Pacific/Pago_Pago" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Pacific/Pago_Pago" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Pacific/Samoa" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Pacific/Samoa" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Pacific/Tongatapu" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/Pacific/Tongatapu" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/US/Alaska" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/US/Alaska" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/US/Aleutian" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/US/Aleutian" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/US/Michigan" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/US/Michigan" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/US/Samoa" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/US/Samoa" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/cprocessors.so" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/cprocessors.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/cresultproxy.so" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/cresultproxy.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/cutils.so" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/cutils.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/flask_session/7566809d95afe9f256b09a05ebc36e3c" afterPath="$PROJECT_DIR$/card/flask_session/7566809d95afe9f256b09a05ebc36e3c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/app/templates/room.html" afterPath="$PROJECT_DIR$/card/app/templates/room.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/app/views.py" afterPath="$PROJECT_DIR$/card/app/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card.db" afterPath="$PROJECT_DIR$/card/card.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/bin/activate" afterPath="$PROJECT_DIR$/card/card_venv/bin/activate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/bin/activate.csh" afterPath="$PROJECT_DIR$/card/card_venv/bin/activate.csh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/bin/activate.fish" afterPath="$PROJECT_DIR$/card/card_venv/bin/activate.fish" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/bin/easy_install" afterPath="$PROJECT_DIR$/card/card_venv/bin/easy_install" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/bin/easy_install-2.7" afterPath="$PROJECT_DIR$/card/card_venv/bin/easy_install-2.7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/bin/flask" afterPath="$PROJECT_DIR$/card/card_venv/bin/flask" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/bin/pip" afterPath="$PROJECT_DIR$/card/card_venv/bin/pip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/bin/pip2" afterPath="$PROJECT_DIR$/card/card_venv/bin/pip2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/bin/pip2.7" afterPath="$PROJECT_DIR$/card/card_venv/bin/pip2.7" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/bin/pybabel" afterPath="$PROJECT_DIR$/card/card_venv/bin/pybabel" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/bin/python-config" afterPath="$PROJECT_DIR$/card/card_venv/bin/python-config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/bin/wheel" afterPath="$PROJECT_DIR$/card/card_venv/bin/wheel" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask-0.12.2.dist-info/RECORD" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/Flask-0.12.2.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/MarkupSafe-1.0.dist-info/METADATA" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/MarkupSafe-1.0.dist-info/METADATA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/MarkupSafe-1.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/MarkupSafe-1.0.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/MarkupSafe-1.0.dist-info/WHEEL" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/MarkupSafe-1.0.dist-info/WHEEL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/MarkupSafe-1.0.dist-info/metadata.json" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/MarkupSafe-1.0.dist-info/metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/babel/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/babel/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/babel/core.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/babel/core.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/babel/localedata.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/babel/localedata.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/engineio/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/engineio/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/engineio/asyncio_socket.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/engineio/asyncio_socket.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/engineio/exceptions.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/engineio/exceptions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/engineio/payload.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/engineio/payload.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/engineio/server.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/engineio/server.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/engineio/socket.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/engineio/socket.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_login/__about__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_login/__about__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_login/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_login/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_login/config.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_login/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_login/login_manager.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_login/login_manager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_login/utils.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_login/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_socketio/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_socketio/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_socketio/test_client.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_socketio/test_client.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_sqlalchemy/_compat.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/flask_sqlalchemy/_compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/itsdangerous-0.24.dist-info/METADATA" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/itsdangerous-0.24.dist-info/METADATA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/itsdangerous-0.24.dist-info/RECORD" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/itsdangerous-0.24.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/itsdangerous-0.24.dist-info/WHEEL" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/itsdangerous-0.24.dist-info/WHEEL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/itsdangerous-0.24.dist-info/metadata.json" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/itsdangerous-0.24.dist-info/metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/asyncsupport.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/asyncsupport.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/bccache.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/bccache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/compiler.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/compiler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/debug.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/debug.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/defaults.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/defaults.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/environment.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/environment.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/ext.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/ext.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/filters.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/filters.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/idtracking.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/idtracking.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/lexer.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/lexer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/nodes.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/nodes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/parser.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/parser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/runtime.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/runtime.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/sandbox.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/sandbox.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/tests.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/utils.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/jinja2/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pip-9.0.1.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pkg_resources/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/zone.tab" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/zone.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/zone1970.tab" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/pytz/zoneinfo/zone1970.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/archive_util.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/archive_util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/command/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/command/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/command/bdist_egg.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/command/bdist_egg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/command/develop.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/command/develop.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/command/easy_install.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/command/easy_install.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/command/egg_info.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/command/egg_info.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/command/sdist.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/command/sdist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/command/test.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/command/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/config.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/dist.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/dist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/monkey.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/monkey.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/package_index.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/package_index.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/py31compat.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/py31compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/sandbox.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/sandbox.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/ssl_support.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/setuptools/ssl_support.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/socketio/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/socketio/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/socketio/asyncio_manager.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/socketio/asyncio_manager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/socketio/asyncio_pubsub_manager.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/socketio/asyncio_pubsub_manager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/socketio/asyncio_server.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/socketio/asyncio_server.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/socketio/packet.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/socketio/packet.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/socketio/pubsub_manager.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/socketio/pubsub_manager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/socketio/server.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/socketio/server.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/connectors/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/connectors/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/connectors/mxodbc.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/connectors/mxodbc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/connectors/pyodbc.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/connectors/pyodbc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/connectors/zxJDBC.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/connectors/zxJDBC.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/databases/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/databases/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/firebird/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/firebird/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/firebird/base.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/firebird/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/firebird/fdb.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/firebird/fdb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/firebird/kinterbasdb.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/firebird/kinterbasdb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mssql/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mssql/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mssql/adodbapi.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mssql/adodbapi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mssql/base.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mssql/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mssql/information_schema.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mssql/information_schema.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mssql/mxodbc.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mssql/mxodbc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mssql/pymssql.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mssql/pymssql.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mssql/pyodbc.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mssql/pyodbc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mssql/zxjdbc.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mssql/zxjdbc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/base.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/cymysql.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/cymysql.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/enumerated.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/enumerated.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/gaerdbms.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/gaerdbms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/json.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/json.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqlconnector.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqlconnector.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqldb.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqldb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/oursql.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/oursql.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/pymysql.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/pymysql.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/pyodbc.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/pyodbc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/reflection.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/reflection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/types.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/types.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/zxjdbc.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/zxjdbc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/oracle/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/oracle/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/oracle/base.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/oracle/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/oracle/cx_oracle.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/oracle/cx_oracle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/oracle/zxjdbc.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/oracle/zxjdbc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/array.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/array.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/base.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/dml.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/dml.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/ext.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/ext.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/hstore.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/hstore.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/json.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/json.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/pg8000.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/pg8000.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/psycopg2cffi.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/psycopg2cffi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/pygresql.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/pygresql.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/pypostgresql.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/pypostgresql.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/ranges.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/ranges.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/zxjdbc.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/postgresql/zxjdbc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sqlite/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sqlite/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sqlite/base.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sqlite/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sqlite/pysqlcipher.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sqlite/pysqlcipher.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sqlite/pysqlite.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sqlite/pysqlite.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sybase/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sybase/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sybase/base.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sybase/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sybase/mxodbc.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sybase/mxodbc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sybase/pyodbc.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sybase/pyodbc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sybase/pysybase.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/dialects/sybase/pysybase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/base.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/default.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/default.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/interfaces.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/interfaces.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/reflection.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/reflection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/result.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/result.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/threadlocal.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/threadlocal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/url.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/url.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/util.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/engine/util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/event/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/event/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/event/api.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/event/api.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/event/attr.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/event/attr.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/event/base.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/event/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/event/legacy.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/event/legacy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/event/registry.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/event/registry.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/events.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/events.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/exc.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/exc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/associationproxy.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/associationproxy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/automap.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/automap.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/baked.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/baked.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/compiler.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/compiler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/declarative/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/declarative/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/declarative/api.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/declarative/api.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/declarative/base.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/declarative/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/declarative/clsregistry.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/declarative/clsregistry.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/horizontal_shard.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/horizontal_shard.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/hybrid.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/hybrid.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/indexable.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/indexable.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/mutable.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/mutable.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/orderinglist.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/orderinglist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/serializer.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/ext/serializer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/inspection.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/inspection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/interfaces.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/interfaces.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/log.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/log.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/attributes.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/attributes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/base.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/collections.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/collections.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/dependency.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/dependency.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/deprecated_interfaces.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/deprecated_interfaces.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/descriptor_props.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/descriptor_props.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/dynamic.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/dynamic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/evaluator.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/evaluator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/events.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/events.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/exc.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/exc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/identity.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/identity.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/instrumentation.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/instrumentation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/interfaces.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/interfaces.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/loading.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/loading.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/mapper.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/mapper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/path_registry.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/path_registry.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/persistence.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/persistence.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/properties.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/properties.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/query.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/query.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/relationships.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/relationships.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/session.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/session.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/state.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/state.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/strategies.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/strategies.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/strategy_options.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/strategy_options.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/sync.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/sync.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/unitofwork.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/unitofwork.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/util.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/orm/util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/pool.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/pool.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/processors.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/processors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/schema.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/schema.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/annotation.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/annotation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/base.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/crud.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/crud.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/ddl.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/ddl.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/default_comparator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/dml.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/dml.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/expression.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/expression.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/functions.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/functions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/naming.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/naming.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/operators.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/operators.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/schema.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/schema.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/selectable.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/selectable.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/sqltypes.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/sqltypes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/type_api.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/type_api.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/util.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/visitors.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/sql/visitors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/assertions.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/assertions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/assertsql.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/assertsql.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/config.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/engines.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/engines.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/entities.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/entities.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/exclusions.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/exclusions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/fixtures.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/fixtures.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/mock.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/mock.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/pickleable.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/pickleable.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/plugin/noseplugin.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/plugin/noseplugin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/plugin/plugin_base.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/plugin/plugin_base.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/profiling.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/profiling.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/provision.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/provision.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/requirements.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/requirements.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/runner.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/runner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/schema.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/schema.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/suite/test_dialect.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/suite/test_dialect.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/suite/test_reflection.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/suite/test_reflection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/suite/test_select.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/suite/test_select.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/suite/test_types.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/suite/test_types.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/util.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/warnings.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/testing/warnings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/types.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/types.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/util/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/util/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/util/_collections.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/util/_collections.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/util/compat.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/util/compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/util/deprecations.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/util/deprecations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/util/queue.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/util/queue.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/util/topological.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/sqlalchemy/util/topological.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/_internal.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/_internal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/_reloader.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/_reloader.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/contrib/cache.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/contrib/cache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/contrib/lint.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/contrib/lint.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/contrib/securecookie.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/contrib/securecookie.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/datastructures.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/datastructures.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/debug/__init__.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/debug/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/formparser.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/formparser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/http.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/http.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/routing.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/routing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/script.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/script.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/security.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/security.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/serving.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/serving.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/test.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/urls.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/useragents.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/useragents.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/utils.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/wrappers.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/wrappers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/wsgi.py" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/werkzeug/wsgi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/card/card_venv/lib/python2.7/site-packages/wheel-0.30.0.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/card/card_venv/pip-selfcheck.json" afterPath="$PROJECT_DIR$/card/card_venv/pip-selfcheck.json" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="card.db" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="card.db" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="main" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/card/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/card/app/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="45" column="26" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/card/app/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="room.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/card/app/templates/room.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="859">
+              <caret line="549" column="54" lean-forward="true" selection-start-line="549" selection-start-column="54" selection-end-line="549" selection-end-column="54" />
+              <folding>
+                <element signature="e#10298#12508#0#HTML" expanded="false" />
+                <element signature="e#13248#14512#0#HTML" expanded="false" />
+                <element signature="e#14566#15679#0#HTML" expanded="false" />
+                <element signature="e#16064#16205#0#HTML" expanded="false" />
+                <element signature="e#16260#16530#0#HTML" expanded="false" />
+                <element signature="e#16972#17089#0#HTML" expanded="false" />
+                <element signature="e#17739#18319#0#HTML" expanded="false" />
+                <element signature="e#18369#19226#0#HTML" expanded="false" />
+                <element signature="e#19280#19509#0#HTML" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/card/app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="476" column="46" lean-forward="true" selection-start-line="476" selection-start-column="46" selection-end-line="476" selection-end-column="46" />
+              <folding>
+                <element signature="e#17#87#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cards</find>
+      <find>send_cards</find>
+      <find>data.se</find>
+      <find>出牌</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/card/app/views.py" />
+        <option value="$PROJECT_DIR$/card/app/templates/room.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FightTheLandlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FightTheLandlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FightTheLandlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FightTheLandlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="card" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FightTheLandlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FightTheLandlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="card" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FightTheLandlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FightTheLandlord" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="card" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/card/card_venv/bin/python2.7" />
+    <property name="FullScreen" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)&#10;data driver" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FightTheLandlord" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FightTheLandlord" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FightTheLandlord" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FightTheLandlord" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="FightTheLandlord" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FightTheLandlord" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FightTheLandlord" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3519b085-13b8-4ad4-bcbc-40963a52b74d" name="Default" comment="" />
+      <created>1516158920917</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516158920917</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287879" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287879" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30041152" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24107143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24269481" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19074675" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21753247" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/card/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/card/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/card/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/card/app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="45" column="26" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4071e974-6190-43c8-8061-732b846cb47d/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/10efea1c/4071e974-6190-43c8-8061-732b846cb47d/main.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/card/app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/card/app/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/card/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="476" column="46" lean-forward="true" selection-start-line="476" selection-start-column="46" selection-end-line="476" selection-end-column="46" />
+          <folding>
+            <element signature="e#17#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/card/app/templates/room.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="549" column="54" lean-forward="true" selection-start-line="549" selection-start-column="54" selection-end-line="549" selection-end-column="54" />
+          <folding>
+            <element signature="e#10298#12508#0#HTML" expanded="false" />
+            <element signature="e#13248#14512#0#HTML" expanded="false" />
+            <element signature="e#14566#15679#0#HTML" expanded="false" />
+            <element signature="e#16064#16205#0#HTML" expanded="false" />
+            <element signature="e#16260#16530#0#HTML" expanded="false" />
+            <element signature="e#16972#17089#0#HTML" expanded="false" />
+            <element signature="e#17739#18319#0#HTML" expanded="false" />
+            <element signature="e#18369#19226#0#HTML" expanded="false" />
+            <element signature="e#19280#19509#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

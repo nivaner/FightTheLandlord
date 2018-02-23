@@ -165,54 +165,9 @@
             <div class="last-cards-area">
                 <!--                左用户出牌 -->
                 <div class="left-last-cards">
-                    {#                    <div class="cards">#}
-                    {#                        <div class="card">#}
-                    {#                            <p>3</p>#}
-                    {#                        </div>#}
-                    {#                        <div class="card">#}
-                    {#                            <p>4</p>#}
-                    {#                        </div>#}
-                    {#                    </div>#}
                 </div>
                 <!-- 右边用户出牌 -->
                 <div class="right-last-cards">
-                    {#                    <div class="cards">#}
-                    {#                        <div class="card">#}
-                    {#                            <p>3</p>#}
-                    {#                        </div>#}
-                    {#                        <div class="card">#}
-                    {#                            <p>4</p>#}
-                    {#                        </div>#}
-                    {#                        <div class="card">#}
-                    {#                            <p>3</p>#}
-                    {#                        </div>#}
-                    {#                        <div class="card">#}
-                    {#                            <p>4</p>#}
-                    {#                        </div>#}
-                    {#                        <div class="card">#}
-                    {#                            <p>3</p>#}
-                    {#                        </div>#}
-                    {#                        <div class="card">#}
-                    {#                            <p>4</p>#}
-                    {#                        </div>#}
-                    {#                        <div class="card">#}
-                    {#                            <p>3</p>#}
-                    {#                        </div>#}
-                    {#                        <div class="card">#}
-                    {#                            <p>4</p>#}
-                    {#                        </div>#}
-                    {#                        <div class="card">#}
-                    {#                            <p>3</p>#}
-                    {#                        </div>#}
-                    {#                        <div class="card">#}
-                    {#                            <p>4</p>#}
-                    {#                        </div>#}
-                    {#                        <div class="card">#}
-                    {#                            <p>3</p>#}
-                    {#                        </div>#}
-                    {#                        <div class="card">#}
-                    {#                            <p>4</p>#}
-                    {#                        </div>#}
                 </div>
             </div>
             <!-- 你出的牌 -->
@@ -220,26 +175,7 @@
                 <div class="tip">
                     <label>出牌：</label>
                 </div>
-                {#                <div class="cards">#}
-                {#                    <div class="card">#}
-                {#                        <p>3</p>#}
-                {#                    </div>#}
-                {#                    <div class="card">#}
-                {#                        <p>4</p>#}
-                {#                    </div>#}
-                {#                    <div class="card ">#}
-                {#                        <p>5</p>#}
-                {#                    </div>#}
-                {#                    <div class="card diamond">#}
-                {#                        <p>6</p>#}
-                {#                    </div>#}
-                {#                    <div class="card">#}
-                {#                        <p>7</p>#}
-                {#                    </div>#}
-                {#                </div>#}
-                {#        </div>#}
             </div>
-
 
         </div>
         <div class="right_cards">
@@ -273,63 +209,6 @@
         <label class="send_cards">出牌</label>
         <div class="cards_layout">
             <div class="cards" id="cards">
-                {#                <div class="card">#}
-                {#                    <p>1</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>2</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>3</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>4</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>5</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>6</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>7</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>8</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>9</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>10</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>11</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>12</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>13</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>14</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>15</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>16</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>17</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>18</p>#}
-                {#                </div>#}
-                {#                <div class="card">#}
-                {#                    <p>19</p>#}
-                {#                </div>#}
                 {#                <div class="card">#}
                 {#                    <p>Joker</p>#}
                 {#                    <div style="color: #ff0000; position: absolute; top: 40% ;left: 30%">♥</div>#}
@@ -470,6 +349,13 @@
                 socket.emit('get_cards', {username: $('#username').text()});
                 return false
             }
+
+            // 出牌
+            if (msg.data == 'you can play') {
+                $('.data-selected').remove();
+                $('.data-selected').remove();
+                console.log('you can play');
+            }
         });
 
         socket.on('join_response', function (msg) {
@@ -569,9 +455,11 @@
             })
         })
 
+        // 发送出牌信息
+
         $('.send_cards').click(function (event) {
-            console.log($('.data-selected p').text())
-            card_data = []
+            console.log($('.data-selected p').text());
+            card_data = [];
             for (var i = 0; i < $('.data-selected').length; i++) {
                 card_data.push($('.data-selected')[i].innerText)
             }
